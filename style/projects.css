@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1300px;
+  margin: 10px auto;
+  width: 90%;
+  text-align: center; }
+
+header p {
+  color: #5799CB; }
+
+.img-size {
+  max-width: 30px;
+  height: auto;
+  padding-left: 4px;
+  margin-right: 5px; }
+
+.img-size-2 {
+  margin-left: 5px;
+  max-width: 30px;
+  height: auto;
+  padding-right: 4px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; }
+
+.max-h-100 {
+  max-height: 80px;
+  width: auto; }
+
+.max-w-350 {
+  max-width: 350px;
+  border-color: #5799CB;
+  background-color: #5799CB; }
+
+.p-name {
+  text-align: start; }
+
+.p-link {
+  text-align: center; }
+
+.head-1 {
+  border-bottom: #5799CB 3px solid; }
+
+#sec-0 .col {
+  padding: 10px; }
+#sec-0 .col-test {
+  color: white;
+  background-color: #5799CB;
+  border-radius: 7px;
+  padding: 10px;
+  border: 1px #5799CB solid; }
+#sec-0 .col-test-2 {
+  border-radius: 7px;
+  margin: 10px;
+  padding: 0 10px;
+  border: 1px transparent solid; }
+#sec-0 .col-test-2:hover {
+  border: 1px #5799CB solid; }
+#sec-0 .inner-box {
+  margin: 10px;
+  padding: 10px 0;
+  border: 3px #5799CB solid;
+  border-radius: 7px; }
+
+/*# sourceMappingURL=projects.css.map */

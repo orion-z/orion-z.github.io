@@ -1,0 +1,162 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+  overflow: hidden; }
+
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #2E4172; }
+
+.container {
+  max-width: 90%;
+  margin: 10px auto;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 10px; }
+
+.container.head a {
+  background-color: #2E4172;
+  color: #ccc;
+  padding: 2px 5px;
+  border: 1px transparent solid;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none; }
+.container.head a:hover {
+  background-color: transparent;
+  color: #2E4172;
+  border: 1px #2E4172 solid; }
+
+#myform input[type=text], #myform textarea, #myform select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #2E4172;
+  box-sizing: border-box;
+  border-radius: 7px;
+  resize: vertical;
+  font-family: monospace;
+  transition: border 0.2s ease; }
+#myform textarea:focus, #myform select:focus, #myform input[type=text]:focus {
+  outline: none;
+  border: #2E4172 3px solid; }
+#myform label {
+  padding: 12px 12px 12px 0;
+  display: inline-block; }
+#myform input[type=submit] {
+  background-color: #2E4172;
+  color: #ccc;
+  padding: 12px 50px;
+  margin-top: 10px;
+  border: 1px transparent solid;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  float: right;
+  cursor: pointer; }
+#myform input[type=submit]:hover {
+  background-color: transparent;
+  color: #2E4172;
+  border: 1px #2E4172 solid; }
+#myform .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; }
+#myform .col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px; }
+#myform .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#shoppingList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px; }
+  #shoppingList .box {
+    transition: all 0.5s ease;
+    border: 4px white solid;
+    border-radius: 9px; }
+    #shoppingList .box p {
+      color: #000;
+      padding: 0 5px;
+      text-transform: capitalize; }
+    #shoppingList .box .wrap {
+      padding: 0 5px;
+      width: 100%;
+      box-sizing: border-box; }
+    #shoppingList .box .wrap:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #shoppingList .box#minor:hover {
+    box-shadow: 0px 0px 10px 3px #82CA9D; }
+  #shoppingList .box#ordinary:hover {
+    box-shadow: 0px 0px 10px 3px #FFF79A; }
+  #shoppingList .box#important:hover {
+    box-shadow: 0px 0px 10px 3px #F7977A; }
+  #shoppingList h1 {
+    font-size: 20px;
+    background-color: white;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    color: #000; }
+  #shoppingList #important {
+    background-color: #F7977A; }
+    #shoppingList #important h1.active {
+      border: 4px #F7977A solid;
+      border-radius: 9px; }
+  #shoppingList #ordinary {
+    background-color: #FFF79A; }
+    #shoppingList #ordinary h1.active {
+      border: 4px #FFF79A solid;
+      border-radius: 9px; }
+  #shoppingList #minor {
+    background-color: #82CA9D; }
+    #shoppingList #minor h1.active {
+      border: 4px #82CA9D solid;
+      border-radius: 9px; }
+  #shoppingList .col-txt {
+    width: 75%;
+    float: left;
+    word-wrap: break-word; }
+  #shoppingList .col-link {
+    width: 20%;
+    float: left; }
+    #shoppingList .col-link p {
+      padding-right: 10px; }
+    #shoppingList .col-link a {
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #333;
+      transition: all 0.3s ease;
+      padding-right: 10px; }
+    #shoppingList .col-link a:hover {
+      color: black; }
+
+@media (max-width: 600px) {
+  .head {
+    text-align: center; }
+
+  #myform .col-25, #myform .col-75, #myform input[type=submit] {
+    width: 100%; }
+  #myform .col-25, #myform .col-75 {
+    margin-top: 0; }
+
+  p {
+    text-align: justify; } }
+@media (max-width: 1000px) {
+  #shoppingList .box {
+    grid-column: 1 / span 3;
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bookmarks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="update()">
+  <h2>Add Bookmarks</h2>
+  <a href="../../projects.html">back to projects</a>
+  <form id="myForm">
+    <div class="form-element">
+      <label>
+        <h3>Site Name</h3>
+      </label>
+      <input id="siteName" type="text" placeholder="Site Name...">
+    </div>
+    <div class="form-element">
+      <label>
+        <h3>Site URL</h3>
+      </label>
+      <input id="siteUrl" type="text" placeholder="Site URL...">
+    </div>
+    <div class="form-element">
+      <label>
+        <h3>Site Description (optional)</h3>
+      </label>
+      <input id="siteDesc" type="text" placeholder="Site Description...">
+    </div>
+    <div class="form-element">
+      <button type="submit" id="btn">Submit</button>
+    </div>
+  </form>
+  <hr>
+  <div id="result">
+
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

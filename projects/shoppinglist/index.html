@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="style/style.css">
+
+  <body onload="update()">
+    <header class="header">
+      <div class="container head">
+        <h1>Shopping List </h1>
+        <p>This is a simple web application written in Vanilla JS.</p>
+        <p>It utilizes localStorage to store data. Design was done with SASS.</p>
+        <a href="../../projects.html">back to projects</a>
+      </div>
+      <div class="container">
+        <form id="myform">
+            <div class="row">
+              <div class="col-25">
+                <label>Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="name" id="name" placeholder="Enter name...">
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-25">
+              <label>Importance</label>
+            </div>
+            <div class="col-75">
+                <select id="importance">
+                  <option value="Low">Low</option>
+                  <option value="Medium">Medium</option>
+                  <option value="High">High</option>
+                </select>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      <div class="container" id="shoppingList">
+        <div class="box" id="minor">
+
+        </div>
+        <div class="box" id="ordinary">
+
+        </div>
+        <div class="box" id="important">
+
+        </div>
+      </div>
+    </header>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
