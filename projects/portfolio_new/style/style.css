@@ -4,7 +4,9 @@
 
 footer {
   border-top: 1px #ccc solid;
-  text-align: center;}
+  text-align: center;
+  padding-top: 15px;
+  background: white; }
 
 .bg-none {
   background: transparent; }
@@ -38,5 +40,20 @@ footer {
 
 #slideTog {
   outline: none; }
+
+button {
+  outline: 0; }
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important; }
 
 /*# sourceMappingURL=style.css.map */

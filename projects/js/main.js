@@ -1,4 +1,5 @@
-$(".details").on("click", function() {
+$(".details").on("click", function(e) {
+  e.preventDefault();
   $(this).siblings("p").slideToggle(600);
   $(this).toggleClass("active");
 })
@@ -13,12 +14,3 @@ $(modal).on("click", function() {
   modal.css("display", "none");
   window.location.href = "patatap/index.html";
 })
-
-// $(window).on("click", function() {
-//   if (event.target == modal) {
-//     modal.css("display", "none");
-//     window.location.href = "patatap/index.html";
-//   }
-// })
-
-//patatap/index.html
