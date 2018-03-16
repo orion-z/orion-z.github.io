@@ -59,6 +59,11 @@ body {
 .contact h1 {
   font-size: 40px; }
 
+.max15 {
+  max-height: 15px;
+  width: auto;
+}
+
 .icon {
   border: 2px #2E4172 solid;
   border-radius: 15px;
