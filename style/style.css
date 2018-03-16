@@ -20,6 +20,24 @@ body {
   .container .txt {
     grid-column: 2 / 3; }
 
+.tldr {
+  margin: 0;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 2px solid #2E4172;
+  line-height: 2;
+  text-align: center;
+}
+
+.tldr-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tldr ul li {
+  list-style-type: none;
+}
+
 .back {
   margin: 20px auto;
   margin-bottom: 0; }
@@ -91,9 +109,8 @@ body {
   #showcase .txt .buttons {
     display: inline; }
 
-#section-0 {
-  padding: 10px 10px; }
   #section-0 .col-outer {
+    padding: 10px 10px;
     margin: 0 auto; }
     #section-0 .col-outer .head {
       margin: 0 auto;
