@@ -1,0 +1,118 @@
+* {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+button {
+  outline: none;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control {  
+  text-align: justify;
+}
+
+label {
+  color: #d9534f;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input:focus {
+  border-color: #d9534f;
+}
+
+.user img {
+  border-radius: 10px;
+}
+
+img {
+  max-height: 40px;
+  width: auto;
+}
+
+.creation {
+  max-width: 450px;
+  margin: 10px auto;
+  outline: none;
+}
+
+.card {
+  margin: 10px auto;
+  max-width: 450px;
+}
+
+#txt {
+  text-align: center;
+}
+
+.icon {
+  max-height: 15px;
+  width: auto;
+}
+
+.social {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 10px 5px;
+  border: 1px solid #aaa;
+  user-select: none;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+#del {
+  display: block;
+}
+
+.user-div {
+  text-align: start;
+  line-height: 50px;
+}
+
+.user {
+  float: left;
+  text-align: left;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.date {
+  float: right;
+}
+
+.message {
+  width: 100%;
+  padding: 20px 5px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  clear: both;
+  line-height: 1.2rem;
+  text-align: justify;
+}
+
+.navbar {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 600px;
+  border-bottom: 2px solid #d9534f;
+}
+
+.woofer {
+  font-family: 'Limelight', cursive;
+  font-size: 2.5em;
+}
