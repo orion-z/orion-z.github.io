@@ -16,6 +16,10 @@ button {
 
 .form-control {  
   text-align: justify;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 label {
@@ -39,12 +43,20 @@ input:focus {
 img {
   max-height: 40px;
   width: auto;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .creation {
   max-width: 450px;
   margin: 10px auto;
   outline: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .card {
@@ -67,6 +79,9 @@ img {
   margin: 10px 5px;
   border: 1px solid #aaa;
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   font-family: monospace;
   font-size: 16px;
 }
@@ -112,7 +127,14 @@ img {
   border-bottom: 2px solid #d9534f;
 }
 
+.layout {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .woofer {
   font-family: 'Limelight', cursive;
-  font-size: 2.5em;
+  font-size: 2.5em;  
 }
